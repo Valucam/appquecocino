@@ -73,7 +73,7 @@ li a:hover{
     text-align: center;
 }
 
-@media screen and (win-width: 768px){}
+@media screen and (win-width: 320px){}
     .body {
         background-color: #000000;
 }
