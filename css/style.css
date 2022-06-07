@@ -73,7 +73,23 @@ li a:hover{
     text-align: center;
 }
 
-@media screen and (win-width: 320px){}
+.gallery { 
+    padding-bottom: 3em;
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 160px;
+    gap: .8em;
+
+}
+
+.gallery__img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (win-width: 320px){
     .body {
-        background-color: #000000;
+        background-color: #ffffff;
+}
 }
