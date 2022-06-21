@@ -1,0 +1,84 @@
+h1 {
+  color: #7bbd87;
+  font-size: 20px;
+  text-align: center; }
+
+h2 {
+  font-family: 'Truculenta', sans-serif;
+  text-align: center; }
+
+nav {
+  text-align: center; }
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #020202;
+  overflow: hidden; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 10px 70px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+li a:visited {
+  color: white; }
+
+li a:hover {
+  background-color: #7bbd87;
+  color: black; }
+
+.centrarimagen {
+  display: flex;
+  justify-content: center; }
+
+.alinearflex {
+  display: flex;
+  justify-content: center; }
+
+.inciarSesion {
+  text-align: center; }
+
+.iniciar {
+  text-align: center; }
+
+.contacto {
+  text-align: center; }
+
+.gallery {
+  padding-bottom: 3em;
+  padding-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 160px;
+  gap: .8em; }
+
+.gallery__img {
+  width: 100%;
+  height: 100%; }
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100px;
+  padding: 50px 0 0 0; }
+
+footer h5 {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center; }
+
+@media screen and (win-width: 320px) {
+  .body {
+    background-color: #ffffff; } }
