@@ -1,55 +1,132 @@
+html
+Copiar código
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="./css/main.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Qué cocino?</title>
     <meta name="description" content="App para cocinar con lo que tengas">
-    <meta name="keywords"  content="COMIDA, RECETAS, COCINAR, ALIMENTOS, PLATOS">
+    <meta name="keywords" content="COMIDA, RECETAS, COCINAR, ALIMENTOS, PLATOS">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f4f3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8bc34a;
+            padding: 20px;
+        }
+        .menumenu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .menumenu li {
+            list-style: none;
+            margin: 0 15px;
+        }
+        .menumenu a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .menumenu a:hover {
+            color: #dcedc8;
+        }
+        .alinearflex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4caf50;
+        }
+        .main {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery__picture {
+            margin: 10px;
+        }
+        .gallery__img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #8bc34a;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+        .btn-primary:hover {
+            background-color: #7cb342;
+        }
+        footer {
+            background-color: #8bc34a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <header>
     <nav>
         <ul>
             <div class="menumenu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="recetas.html">Recetas</a></li> 
-            <li><a href="app.html">App</a></li>
-            <li><a href="misfavoritas.html">Mis favoritas</a></li> 
-            <li><a href="iniciarsesion.html">Iniciar sesion</a></li>  
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li> 
+                <li><a href="app.html">App</a></li>
+                <li><a href="misfavoritas.html">Mis favoritas</a></li> 
+                <li><a href="iniciarsesion.html">Iniciar sesión</a></li>
             </div>
         </ul>
     </nav>
 </header>
-<body>      
+<body>
     <div class="alinearflex">
         <img src="./Imagenes/LOGO.png" alt="logo">
     </div>
     <h1>Una app para cocinar con lo que tengas a mano</h1>
     <h2>RECETAS</h2>
-    <main class="main"> 
-        <h1 class="title"> Galeria de recetas </h1>
+    <main class="main">
+        <h1 class="title">Galería de recetas</h1>
         <section class="gallery">
-            <figure class="gallery__picture gallery__picture--g1">
-                <img src="./Imagenes/RECETA1.jpg" class="gallery__img">
+            <figure class="gallery__picture">
+                <img src="./Imagenes/RECETA1.jpg" class="gallery__img" alt="Receta 1">
             </figure>
-            <figure class="gallery__picture gallery__picture--g1">
-                <img src="./Imagenes/RECETA2.jpg" class="gallery__img">
+            <figure class="gallery__picture">
+                <img src="./Imagenes/RECETA2.jpg" class="gallery__img" alt="Receta 2">
             </figure>
-            <figure class="gallery__picture gallery__picture--g1">
-                <img src="./Imagenes/RECETA3.jpg" class="gallery__img">
+            <figure class="gallery__picture">
+                <img src="./Imagenes/RECETA3.jpg" class="gallery__img" alt="Receta 3">
             </figure>
-            <figure class="gallery__picture gallery__picture--g1">
-                <img src="./Imagenes/RECETA4.jpg" class="gallery__img">
+            <figure class="gallery__picture">
+                <img src="./Imagenes/RECETA4.jpg" class="gallery__img" alt="Receta 4">
             </figure>
         </section>
     </main>
     <footer>
-		<h5>  RAPIDO, FACIL Y SENCILLO  </h5>
-	</footer>
-
+        <h5>RAPIDO, FACIL Y SENCILLO</h5>
+    </footer>
 </body>
 </html>
-<section></section>
-<main></main>
