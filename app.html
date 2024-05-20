@@ -10,17 +10,20 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #F9F9F9;
+            background-color: #f0f4f3;
+            color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #FF0000;
-            padding: 10px 0;
+            background-color: #8bc34a;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .menumenu {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            gap: 20px;
         }
         .menumenu li {
             list-style: none;
@@ -29,24 +32,33 @@
             text-decoration: none;
             color: white;
             font-weight: 500;
+            font-size: 18px;
         }
         .menumenu a:hover {
-            color: #CCCCCC;
+            color: #dcedc8;
         }
         .alinearflex {
             display: flex;
             justify-content: center;
+            align-items: center;
             margin: 20px 0;
         }
+        h1, h2 {
+            text-align: center;
+            color: #4caf50;
+        }
         .btn-primary {
-            background-color: #FF0000;
+            background-color: #8bc34a;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 4px;
+            font-size: 18px;
+            display: inline-block;
+            margin: 20px 0;
         }
         .btn-primary:hover {
-            background-color: #CC0000;
+            background-color: #7cb342;
         }
     </style>
 </head>
@@ -54,24 +66,24 @@
     <nav>
         <ul>
             <div class="menumenu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="recetas.html">Recetas</a></li> 
-            <li><a href="app.html">App</a></li>
-            <li><a href="misfavoritas.html">Mis favoritas</a></li> 
-            <li><a href="iniciarsesion.html">Iniciar sesión</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li> 
+                <li><a href="app.html">App</a></li>
+                <li><a href="misfavoritas.html">Mis favoritas</a></li> 
+                <li><a href="iniciarsesion.html">Iniciar sesión</a></li>
             </div>  
         </ul>
     </nav>
 </header>
-<div class="">
-      <div class="alinearflex">
+<body>
+    <div class="alinearflex">
         <img src="./Imagenes/fondofondo.png" alt="pmu">
     </div>
     <div class="alinearflex">
-      <p><a class="btn btn-primary btn-lg" href="" role="button">Descargar App &raquo;</a></p>
+        <a class="btn btn-primary btn-lg" href="" role="button">Descargar App &raquo;</a>
     </div>
     <div class="alinearflex">
-          <img src="./Imagenes/1ermock.png" alt="pmu">
-      </div>
-  </div>
+        <img src="./Imagenes/1ermock.png" alt="pmu">
+    </div>
+</body>
 </html>
